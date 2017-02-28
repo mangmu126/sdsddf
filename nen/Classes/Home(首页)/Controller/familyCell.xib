@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QTD-g4-vmH">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日用百货" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIi-Du-aPN">
+                    <rect key="frame" x="10" y="40" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="居家生活" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3t-FA-3f7">
+                    <rect key="frame" x="10" y="66" width="53.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tm6-4V-tl3">
+                    <rect key="frame" x="145" y="19" width="80" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Zcd-La-Xe1"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tm6-4V-tl3" secondAttribute="trailing" constant="15" id="AWm-kP-vGY"/>
+                <constraint firstItem="EIi-Du-aPN" firstAttribute="top" secondItem="QTD-g4-vmH" secondAttribute="top" constant="40" id="Oxq-GH-Yf2"/>
+                <constraint firstItem="e3t-FA-3f7" firstAttribute="leading" secondItem="EIi-Du-aPN" secondAttribute="leading" id="S8H-sa-S1r"/>
+                <constraint firstItem="tm6-4V-tl3" firstAttribute="top" secondItem="QTD-g4-vmH" secondAttribute="top" constant="19" id="mL5-FD-wY3"/>
+                <constraint firstItem="EIi-Du-aPN" firstAttribute="leading" secondItem="QTD-g4-vmH" secondAttribute="leading" constant="10" id="oSp-No-7RU"/>
+                <constraint firstAttribute="bottom" secondItem="tm6-4V-tl3" secondAttribute="bottom" constant="20" id="p3k-R2-UVm"/>
+                <constraint firstItem="e3t-FA-3f7" firstAttribute="top" secondItem="EIi-Du-aPN" secondAttribute="bottom" constant="5" id="smy-BS-giq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="38" y="3"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K9j-MI-Fbk">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="-132" y="158"/>
+        </label>
+    </objects>
+</document>

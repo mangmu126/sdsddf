@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>保险超市</string>
+		<key>icon</key>
+		<string>icon_00</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>宗教区</string>
+		<key>icon</key>
+		<string>icon_01</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>餐饮圈</string>
+		<key>icon</key>
+		<string>icon_02</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>居家生活</string>
+		<key>icon</key>
+		<string>icon_03</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>购物车</string>
+		<key>icon</key>
+		<string>icon_04</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>培训圈</string>
+		<key>icon</key>
+		<string>icon_05</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>美容圈</string>
+		<key>icon</key>
+		<string>icon_06</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>帮助</string>
+		<key>icon</key>
+		<string>icon_07</string>
+	</dict>
+</array>
+</plist>
